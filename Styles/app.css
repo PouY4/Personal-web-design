@@ -250,7 +250,7 @@ body{
 */
 
 .home{
-    margin-top: 10rem;
+    margin-top: 15rem;
     height: 82rem;
     background-image: url(../images/shapes/header-shape.svg);
     background-repeat: no-repeat;
@@ -302,7 +302,7 @@ body{
 */
 
 .aboutus{
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 .about{
     box-shadow: 0 0 6rem rgba(19, 182, 255, 0.24);
@@ -379,7 +379,7 @@ body{
 */
 
 .services{
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 .service{
     color: #ffffff;
@@ -437,7 +437,7 @@ body{
 */
 
 .resume{
-    margin-top: 10rem;
+    margin-top: 15rem;
     background-color: var(--section-bg-color);
     box-shadow: 0 0 6rem rgba(96, 233, 255, 0.27);
     padding: 8rem 0;
@@ -582,7 +582,7 @@ body{
 
 
 .portfolio{
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 .portfolio-list{
     display: flex;
@@ -643,7 +643,7 @@ body{
 
 
 .pricing{
-    margin-top: 10rem;
+    margin-top: 15rem;
     background-color: var(--section-bg-color);
     box-shadow: 0 0 6rem rgba(96, 233, 255, 0.27);
     padding: 8rem 0 14rem 0;
@@ -704,3 +704,118 @@ body{
     margin: 2rem auto 0 auto;
 }
 
+
+/* 
+
+- Contact us -
+
+*/
+
+.contactus{
+    margin-top: 15rem;
+}
+.contactus__wrapper{
+    background: url(../images/map.jpg) no-repeat;
+    background-size: cover;
+    height: 78rem;
+    padding: 5rem 0;
+}
+.contactus__map{
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--app-bg-color);
+    border-radius: 100%;
+    box-shadow: 0 0 4rem rgba(96,  233, 255, 0.27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+.contactus__map__icon{
+    width: 2rem;
+}
+.contact{
+    background-color: var(--section-bg-color);
+    padding: 5rem 4.5rem;
+    max-width: 50rem;
+    margin-left: auto;
+    box-shadow: 0 0 4rem rgba(96,  233, 255, 0.27);
+}
+.contact__title{
+    font-family: "Poppins Bold";
+    font-size: 2.8rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+.contact__form{
+
+}
+.contact__input{
+    border: none;
+    outline: none;
+    background-color: var(--app-bg-color);
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 4rem rgba(96,  233, 255, 0.27);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.4rem 2rem;
+    color: var(--text-color);
+}
+.contact__input::placeholder{
+    color: inherit;
+}
+.contact__input--textarea{
+    resize: vertical;
+    min-height: 8rem;
+    max-height: 18rem;
+}
+.contact__submit{
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: var(--primary-color);
+    height: 5rem;
+    border-radius: 2.5rem;
+    color: #fff;
+    padding: 1.5rem;
+    font-family: "Poppins SemiBold";
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+
+/* 
+
+--Footer
+
+*/
+
+.footer{
+    margin: 2rem 0;
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__text{
+    
+}
+.footer__social-media{
+    display: flex;
+    gap: 1rem;
+}
+.footer__social-media__links{
+    fill: var(--app-bg-color);
+    background-color: #333333;
+    border-radius: 100%;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+.footer__social-media__links--active{
+    background-color: var(--primary-color);
+    
+}

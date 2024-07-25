@@ -101,6 +101,12 @@
         border-left: none;
         padding-left: 0;
     }
+    .contactus__map{
+        display: none;
+    }
+    .contact{
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -169,6 +175,9 @@
     }
     .service{
         padding: 5rem 2rem;
+    }
+    .contact{
+        padding: 5rem 2.5rem;
     }
 }
 @media screen and (max-width:415px){
