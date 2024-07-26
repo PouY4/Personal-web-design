@@ -1932,6 +1932,9 @@ body{
 }
 
 @media screen and (max-width:768px){
+    *{
+        cursor: default !important;
+    }
     .menu{
         background-color: var(--section-bg-color);
         position: absolute;
